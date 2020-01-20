@@ -1,1 +1,15 @@
 import './assets/styles/app.scss';
+import './assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp';
+import './assets/images/apples.webp';
+import './assets/images/fb.webp';
+import './assets/images/fbw.webp';
+import './assets/images/ig.webp';
+import './assets/images/igw.webp';
+import './assets/images/p.webp';
+import './assets/images/person_pin-24px.svg';
+import './assets/images/pw.webp';
+import './assets/images/salad.webp';
+import './assets/images/twitter.webp';
+import './assets/images/twitterw.webp';
+import './assets/images/veggies.jpg';
+import './assets/images/woodbg2.jpg';

@@ -86,14 +86,182 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp":
+/*!************************************************************************!*\
+  !*** ./src/assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/1e47b2_65c22d9dd665412384741e6b0794c447.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/apples.webp":
+/*!***************************************!*\
+  !*** ./src/assets/images/apples.webp ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/apples.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/apples.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/fb.webp":
+/*!***********************************!*\
+  !*** ./src/assets/images/fb.webp ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/fb.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/fb.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/fbw.webp":
+/*!************************************!*\
+  !*** ./src/assets/images/fbw.webp ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/fbw.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/fbw.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/ig.webp":
+/*!***********************************!*\
+  !*** ./src/assets/images/ig.webp ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/ig.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/ig.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/igw.webp":
+/*!************************************!*\
+  !*** ./src/assets/images/igw.webp ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/igw.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/igw.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/p.webp":
+/*!**********************************!*\
+  !*** ./src/assets/images/p.webp ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/p.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/p.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/person_pin-24px.svg":
+/*!***********************************************!*\
+  !*** ./src/assets/images/person_pin-24px.svg ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/person_pin-24px.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/person_pin-24px.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pw.webp":
+/*!***********************************!*\
+  !*** ./src/assets/images/pw.webp ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/pw.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/pw.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/salad.webp":
+/*!**************************************!*\
+  !*** ./src/assets/images/salad.webp ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/salad.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/salad.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/twitter.webp":
+/*!****************************************!*\
+  !*** ./src/assets/images/twitter.webp ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/twitter.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/twitter.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/twitterw.webp":
+/*!*****************************************!*\
+  !*** ./src/assets/images/twitterw.webp ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/twitterw.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/twitterw.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/veggies.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/veggies.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/veggies.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/veggies.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/woodbg2.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/woodbg2.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/woodbg2.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/woodbg2.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/styles/app.scss":
 /*!************************************!*\
   !*** ./src/assets/styles/app.scss ***!
   \************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleParseError: Module parse failed: Unexpected character '\\u0000' (1:6)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\\n    at handleParseError (C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:469:19)\\n    at C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:503:5\\n    at C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:358:12\\n    at C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:373:3\\n    at iterateNormalLoaders (C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:214:10)\\n    at Array.<anonymous> (C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:205:4)\\n    at Storage.finished (C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:55:16)\\n    at C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:91:9\\n    at C:\\\\Users\\\\PC\\\\Desktop\\\\CA 2020\\\\HTMLCSS individualus projektas\\\\node_modules\\\\graceful-fs\\\\graceful-fs.js:115:16\\n    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)\");\n\n//# sourceURL=webpack:///./src/assets/styles/app.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/assets/styles/app.scss?");
 
 /***/ }),
 
@@ -105,7 +273,7 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_images_1e47b2_65c22d9dd665412384741e6b0794c447_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp */ \"./src/assets/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp\");\n/* harmony import */ var _assets_images_apples_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/apples.webp */ \"./src/assets/images/apples.webp\");\n/* harmony import */ var _assets_images_fb_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/fb.webp */ \"./src/assets/images/fb.webp\");\n/* harmony import */ var _assets_images_fbw_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/fbw.webp */ \"./src/assets/images/fbw.webp\");\n/* harmony import */ var _assets_images_ig_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/ig.webp */ \"./src/assets/images/ig.webp\");\n/* harmony import */ var _assets_images_igw_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/igw.webp */ \"./src/assets/images/igw.webp\");\n/* harmony import */ var _assets_images_p_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/p.webp */ \"./src/assets/images/p.webp\");\n/* harmony import */ var _assets_images_person_pin_24px_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/person_pin-24px.svg */ \"./src/assets/images/person_pin-24px.svg\");\n/* harmony import */ var _assets_images_pw_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/pw.webp */ \"./src/assets/images/pw.webp\");\n/* harmony import */ var _assets_images_salad_webp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/salad.webp */ \"./src/assets/images/salad.webp\");\n/* harmony import */ var _assets_images_twitter_webp__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/twitter.webp */ \"./src/assets/images/twitter.webp\");\n/* harmony import */ var _assets_images_twitterw_webp__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/twitterw.webp */ \"./src/assets/images/twitterw.webp\");\n/* harmony import */ var _assets_images_veggies_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/veggies.jpg */ \"./src/assets/images/veggies.jpg\");\n/* harmony import */ var _assets_images_woodbg2_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/woodbg2.jpg */ \"./src/assets/images/woodbg2.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

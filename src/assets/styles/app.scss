@@ -2,17 +2,20 @@
 	font-family: 'Roboto', sans-serif;
 	margin-left: 0;
 }
-/* Color White*/
-.main__div__button {
-	font-size: 16px;
-	color: #000000;
+body {
+    margin: 0;
 }
+/* Color White*/
+.main__div__button, .div__third a {
+	color: #ffffff;
+}
+/* Color Green*/ 
+
 .nav {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	margin-left: 15vw;
-    margin-right: 15vw;
     & a {
         text-decoration: none;
         color: #8F9789;
@@ -36,7 +39,7 @@
 .main__div {
 	width: 100vw;
 	height:100vh;
-	background-image: url("../../../public/images/veggies.jpg");
+	background-image: url(../images/veggies.jpg);
   	background-attachment: fixed;
     background-size: cover;
     &__child {
@@ -56,6 +59,7 @@
         border: none;
         background-color: #adc743;
         position: absolute;
+        font-size: 16px;
     }  
 }
 .main__div__child__h1, .main__div__button {
@@ -69,7 +73,7 @@
     &__one {
         height: 75vh;
         width: 25vw;
-        background-image: url("../../../public/images/1e47b2_65c22d9dd665412384741e6b0794c447.webp");
+        background-image: url(../images/1e47b2_65c22d9dd665412384741e6b0794c447.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -94,10 +98,14 @@
 	justify-content: center;
 	flex-wrap: wrap;
     width: 100vw;
+    & a {
+        text-decoration: none;
+    }
     &__one {
         height: 25vh;
         width: 12vw;
         background-color: #aca298;
+        font-size: 25px;
     }
     &__two {
         height: 40vh;
@@ -144,10 +152,11 @@
 	justify-content: flex-end;
 }
 footer div {
-	margin: 20px 20px 60px 20px;
+	margin-bottom: 60px;
 }
 .div__footer {
-	display: flex;
+    display: flex;
+    flex-wrap: wrap;
 	justify-content: center;
     align-items: center;
     &__line {
@@ -169,8 +178,11 @@ footer div {
 	padding: 0 30px;
 }
 .footer__copyright {
-	background-image: url("../../../public/images/woodbg2.jpg");
-	background-size: cover;
+	background-image: url(../images/woodbg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	width: 100%;
 	height: 60vh;
 	display: flex;
