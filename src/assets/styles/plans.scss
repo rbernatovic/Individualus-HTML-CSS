@@ -1,0 +1,82 @@
+.plans, .plansgrey {
+    @extend .flexcolAcenter;
+    border: 1px solid #aca298;
+    width: 282px;
+    height: 330px;
+    margin: 20px 20px 0 20px;
+    &__one {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    &__two {
+        margin: 0 80px 0 0;
+        padding: 10px 0 0 0;
+    }
+    &__threedigitdollar {
+        margin: 0 140px 0 0;
+        padding: 10px 0 0 0;
+    }
+    &__three {
+        font-size: 80px;
+        margin: -20px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+    &__four {
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+        padding: 10px 0;
+    }
+    &__five {
+        color: #aca298;
+        font-size: 12px;
+        margin: 0;
+        padding: 10px 0;
+    }
+    & button {
+        background-color: $green;
+        border: none;
+        padding: 10px 60px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+.marginminusbutton {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & div {
+        width: 80px;
+        height: 20px; 
+        background-color: $green;
+    }
+}
+.plansmain {
+    display: flex;
+    justify-content: center;
+}
+.plans2 {
+    @extend .flexcolAcenter;
+    border: 1px solid #aca298;
+    width: 282px;
+    height: 330px;
+    margin: 0 20px 40px 20px;
+    border-top: none;
+}
+.plansgrey {
+    background-color: #e9e7e4;
+}
+@media (max-width: 1000px) {
+    .plansmain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .plans2 {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+$green: #adc743;
+$white: #ffffff;
+.flexcolJcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexcolAcenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexcolAJcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

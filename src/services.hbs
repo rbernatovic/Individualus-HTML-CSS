@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>{{htmlWebpackPlugin.options.title}}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    {{!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --}}
+
+</head>
+<body>
+    <header>
+        {{> partials/nav }}
+		{{> partials/chatsupport }}
+    </header>
+    <main>
+        <div class="about__header">
+            <p>Services</p>
+        </div>
+        <div id="London" class="w3-container w3-display-container city">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <div class="services__nav">
+            <div class="services__nav__left" onclick="openCity('London')">
+                <p>Consulting</p>
+                <div></div>
+            </div>
+            <div class="services__nav__right" onclick="openCity('Paris')">
+                <p>Lessons</p>
+                <div></div>
+            </div>
+        </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\juice.webp" alt="">
+                    <h2>Personal Nutrition Counseling</h2>
+                    <h6>1 hour</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\kids.webp" alt="">
+                    <h2>Family Nutrition Counseling</h2>
+                    <h6>1 hour 30 min</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\tomatoes.webp" alt="">
+                    <h2>Sustainable Weight Management</h2>
+                    <h6>1 hour</h6>
+                    <h6>$70</h6>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\gluten.webp" alt="">
+                    <h2>Food Sensitivities</h2>
+                    <h6>1 hour</h6>
+                    <h6>$80</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\alison.webp" alt="">
+                    <h2>Initial Nutrition Assessment </h2>
+                    <h6>1 hour</h6>
+                    <h6>$200</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\yogurt.webp" alt="">
+                    <h2>Improving Lifestyle Workshop</h2>
+                    <h6>1 hour</h6>
+                    <h6>$50</h6>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+          
+          <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <div class="services2__nav">
+            <div class="services2__nav__left" onclick="openCity('London')">
+                <p>Consulting</p>
+                <div></div>
+            </div>
+            <div class="services2__nav__right" onclick="openCity('Paris')">
+                <p>Lessons</p>
+                <div></div>
+            </div>
+        </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\kepimoindas.webp" alt="">
+                    <h2>Healthy Cooking Classes</h2>
+                    <h6>1 hour</h6>
+                    <h6>$90</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\juices.webp" alt="">
+                    <h2>Changing Habits</h2>
+                    <h6>1 hour</h6>
+                    <h6>$90</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\lemons.webp" alt="">
+                    <h2>Grocery Tours</h2>
+                    <h6>1 hour</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+            </div> 
+          </div>
+    </main>
+    <footer>
+        {{> partials/footer }}
+    </footer>
+    <script>
+        function openCity(cityName) {
+          var i;
+          var x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+</body>
+</html>

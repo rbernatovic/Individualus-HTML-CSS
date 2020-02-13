@@ -1,0 +1,92 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    &__info {
+        background-color: #f0f0f0;
+        width: 600px;
+        height: 50vh; 
+        & h5 {
+            width: 180px;
+            padding: 0 0 0 40px;
+            margin: 0;
+        }
+        & h2 {
+            margin-bottom: 40px;
+            padding-left: 40px;
+        }     
+        & h4 {
+            padding-left: 40px;
+            margin-top: 40px;
+            width: 80%;
+        }
+    }
+    &__map {
+        width: 400px;
+        height: 50vh;
+        margin-top: 30vh;
+    }
+}
+.contact__form {
+    background-color: $green;
+    width: 450px;
+    height: 60vh;
+    margin-left: 24%;
+    margin-top: -30vh;
+    &__form {
+        @extend .flexcolAJcenter;
+        &__1 {
+            width: 330px;
+            height: 25px;
+            padding-left: 10px;
+            margin-top: 30px;
+            color: #acabab;
+        }
+        &__2 {
+            width: 330px;
+            height: 25px;
+            padding-left: 10px;
+            margin-top: 5px;
+            color: #acabab;
+        }
+        &__3 {
+            width: 330px;
+            height: 25px;
+            padding-left: 10px;
+            margin-top: 5px;
+            color: #acabab;
+        }
+        &__4 {
+            width: 330px;
+            height: 125px;
+            padding-left: 10px;
+            margin-top: 5px;
+            color: #acabab;
+        }
+        &__5 {
+            color: white;
+            background: none;
+            border: none;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-left: 280px;
+        }
+        &__1:hover, &__2:hover, &__3:hover, &__4:hover {
+            background: #f0f0f0;
+        }
+        &__5:hover {
+            background: #398320;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .contact__form, .contact__map {
+        margin: 0;
+    }
+    .form__mediaquery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+}

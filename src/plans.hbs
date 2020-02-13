@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>{{htmlWebpackPlugin.options.title}}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        {{> partials/nav }}
+        {{> partials/chatsupport }}
+    </header>
+    <main>
+        <div class="about__header">
+            <p>Choose Your Pricing Plan</p>
+        </div>
+        <div class="plansmain">
+            <div class="plans">
+                <p class="plans__one">21 day cleanse</p>
+                <p class="plans__two">$</p>
+                <p class="plans__three">50</p class="plans__three"   >
+                <p class="plans__four">A great way to cleanse your body and feel good</p>
+                <p class="plans__five">Valid for one month</p>
+                <button>Start Now</button>
+            </div>
+            <div class="plansgrey">
+                <div class="marginminusbutton">
+                    <div>Best Value</div>
+                </div>
+                <p class="plans__one">10 week weightloss</p>
+                <p class="plans__threedigitdollar">$</p>
+                <p class="plans__three">225</p class="plans__three"   >
+                <p class="plans__four">A structured plan to help you achieve your weight loss goals</p>
+                <p class="plans__five">Valid for 3 months</p>
+                <button>Start Now</button>
+            </div>
+            <div class="plans">
+                <p class="plans__one">5 week nutrition</p>
+                <p class="plans__threedigitdollar">$</p>
+                <p class="plans__three">125</p class="plans__three"   >
+                <p class="plans__four">A plan that will help you consume all the nutrients that you</p>
+                <p class="plans__five">Valid for 6 monts</p>
+                <button>Start Now</button>
+            </div>
+        </div>
+        <div class="plansmain">
+            <div class="plans2">
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+            </div>
+            <div class="plans2">
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+            </div>
+            <div class="plans2">
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+                <p>I am a benefit</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        {{> partials/footer }}
+    </footer>
+</body>
+</html>

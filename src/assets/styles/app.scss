@@ -1,3 +1,9 @@
+@import 'variables.scss';
+@import 'services.scss';
+@import 'plans.scss';
+@import 'contact.scss';
+@import 'blog.scss';
+@import 'about.scss';
 * {
 	font-family: 'Roboto', sans-serif;
 	margin-left: 0;
@@ -5,87 +11,84 @@
 body {
     margin: 0;
 }
-/* Color White*/
-.main__div__button, .div__third a {
-	color: #ffffff;
-}
-/* Color Green*/ 
-
 .nav {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin-left: 15vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     & a {
         text-decoration: none;
         color: #8F9789;
         padding: 0 7px;
+        font-size: 13px;
     }
     & img {
         height: 20px;
         width: 20px;
     }
     &__left {
-        background-color: #adc743;
+        background-color: $green;
         padding: 0 30px;
+        margin-right: 45px;
+        & h2 {
+            color: #ffffff;
+        }
         &__p {
             text-align: center;
         }
     }
     &__img__person {
-        padding: 0 0 0 40px;
+        padding: 0 0 0 100px;
     }
 }
 .main__div {
-	width: 100vw;
-	height:100vh;
+	width: 100%;
 	background-image: url(../images/veggies.jpg);
   	background-attachment: fixed;
     background-size: cover;
     &__child {
-        width: 25vw;
+        width: 25%;
         height: 100vh;
-        margin-left: 15vw;
-        background: #ffffff;
-        opacity: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin-left: 15%;
+        background: rgba(255,255,255, 0.7);
+        @extend .flexcolJcenter;
+        flex-wrap: wrap;
+        &__h1 {
+            margin: 0 25px;
+        }
     }
     &__button {
-        margin-top: 15vh;
+        margin: 30px 25px;
         width: 15vw;
         height: 10vh;
         border: none;
-        background-color: #adc743;
+        background-color: $green;
         position: absolute;
         font-size: 16px;
+        color: $white;
     }  
-}
-.main__div__child__h1, .main__div__button {
-	margin: 0 25px;
 }
 .div__second {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     &__one {
         height: 75vh;
-        width: 25vw;
+        width: 25%;
         background-image: url(../images/1e47b2_65c22d9dd665412384741e6b0794c447.webp);
         background-repeat: no-repeat;
         background-size: cover;
     }
     &__two {
         height: 75vh;
-        width: 45vw;
+        width: 45%;
         background-color: #f0f0f0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @extend .flexcolJcenter;
         & a {
             margin-top: 10%;
+            text-decoration: none;
+            color: $green;
         }
     }
 }
@@ -97,9 +100,10 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     & a {
         text-decoration: none;
+        color: $white;
     }
     &__one {
         height: 25vh;
@@ -110,34 +114,36 @@ body {
     &__two {
         height: 40vh;
         width: 32vw;
-        background-color: #adc743;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        background-color: $green;
+        @extend .flexcolJcenter;
     }
     &__one:hover {
         background-color: #7E7872;
     }
 }
 .div__fourth {
-	margin-left: 15vw;
+    margin-left: 15%;
+    margin-bottom: -4px;
+    padding-bottom: 0;
+    & img {
+        width: 60vw;
+    }
 }
 .div__fifth {
 	display: flex;
-	justify-content: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     margin-right: 13vw;
     &__one {
         height: 25vh;
         width: 12vw;
-        background-color: #adc743;
+        background-color: $green;
     }
     &__two {
         height: 50vh;
         width: 30vw;
         background-color: #f0f0f0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @extend .flexcolJcenter;
     }
 }
 .div__third__one, .div__fifth__one {
@@ -159,10 +165,13 @@ footer div {
     flex-wrap: wrap;
 	justify-content: center;
     align-items: center;
+    color: $white;
     &__line {
         width: 2px;
         height: 15vh;
-        background-color: #ffffff;
+        background-color: $white;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     &__a {
         margin-top: 60px;
@@ -170,27 +179,115 @@ footer div {
     &__adress p {
         margin: 0;
     }
-}
-.div__footer__adress, .div__footer__a, .div__footer__id {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0 30px;
+    &__adress, &__a, &__id {
+        @extend .flexcolAcenter;
+        padding: 0 30px;
+    }
 }
 .footer__copyright {
-	background-image: url(../images/woodbg2.jpg);
+	background-image: url(../images/woodbg3.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 	width: 100%;
-	height: 60vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+    @extend .flexcolAJcenter;
+    color: $white;
 }
 footer div p {
-	margin-top: -80px;
+	margin-top: -60px;
+}
+.online__chat {
+    position: fixed; 
+    bottom: 0;
+    right: 2vw;
+    width: 300px;
+    height: 10vh;
+    background-color: $green;
+    display: flex;
+    align-items: center;
+    & img {
+        width: 50px;
+        height: 50px;
+    }
+    & div {
+        @extend .flexcolJcenter;
+        & p {
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+@media (max-width:768px) and (min-width:320px) {
+    .nav {
+        &__left {
+            margin: 0;
+        }
+        &__img__person {
+            padding: 0;
+        }
+    }
+    .main__div {
+        &__child {
+            width: 250px;
+        }
+        &__button {
+            width: 150px;
+        }
+    }
+    .div__footer__line {
+        display: none;
+    }
+    footer div, h3, h5 {
+        margin: 0;
+        padding: 0;
+    }
+    .online__chat {
+        width: 50px;
+        & div {
+            display: none;
+        }
+    }
+    .div__footer {
+        margin-top: 20px;
+        flex-direction: column;
+        &__id {
+            margin: 10px 0;
+        }
+    }
+    .div__footer__a {
+        margin: 10px 0 0 0;
+        & h5 {
+            padding-bottom: 20px;
+        }
+    }
+    .copyright {
+        margin-top: 0;
+    }
+    .div__second, .div__third, .div__fifth {
+        flex-direction: column;
+        margin: 0;
+        &__one {
+            width: 100%;
+
+        }
+        &__two {
+            width: 100%;
+        }
+    }
+    .div__sixth {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .div__fourth {
+        margin: 0;
+        & img {
+            width: 100%;
+        }
+    }
 }

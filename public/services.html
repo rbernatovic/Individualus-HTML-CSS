@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>services</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<link href="assets/styles/app.css" rel="stylesheet"></head>
+<body>
+    <header>
+        <nav class="nav">
+        			<div class="nav__left">
+        				<h2>ALISON KNIGHT</h2>
+        				<p class="nav__left__p">Nutritionist</p>
+        			</div>
+        			<a href="index.html">Home</a>
+        			<a href="about.html">About Alison</a>
+        			<a href="services.html">Services</a>
+        			<a href="plans.html">Plans</a>
+        			<a href="blog.html">Blog</a>
+        			<a href="contact.html">Contact</a>
+        			<a href=""><img class="nav__img__person" src="assets\images\person_pin-24px.svg"></a>
+        			<a href=""><p class="nav__right__p">Log In</p></a>
+        			<a href="http://www.facebook.com"><img src="assets\images\fb.webp"></a>
+        			<a href="http://twitter.com"><img src="assets\images\twitter.webp"></a>
+        			<a href="http://pinterest.com"><img src="assets\images\p.webp"></a>
+        			<a href="http://instagram.com"><img src="assets\images\ig.webp"></a>
+        		</nav>		<div class="online__chat">
+					<a href=""><img src="assets\images\evil.png" alt=""></a>
+					<div>
+						<p>Let's Chat!</p>
+						<p>Well reply as soon as we can</p>
+					</div>
+				</div>    </header>
+    <main>
+        <div class="about__header">
+            <p>Services</p>
+        </div>
+        <div id="London" class="w3-container w3-display-container city">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <div class="services__nav">
+            <div class="services__nav__left" onclick="openCity('London')">
+                <p>Consulting</p>
+                <div></div>
+            </div>
+            <div class="services__nav__right" onclick="openCity('Paris')">
+                <p>Lessons</p>
+                <div></div>
+            </div>
+        </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\juice.webp" alt="">
+                    <h2>Personal Nutrition Counseling</h2>
+                    <h6>1 hour</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\kids.webp" alt="">
+                    <h2>Family Nutrition Counseling</h2>
+                    <h6>1 hour 30 min</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\tomatoes.webp" alt="">
+                    <h2>Sustainable Weight Management</h2>
+                    <h6>1 hour</h6>
+                    <h6>$70</h6>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\gluten.webp" alt="">
+                    <h2>Food Sensitivities</h2>
+                    <h6>1 hour</h6>
+                    <h6>$80</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\alison.webp" alt="">
+                    <h2>Initial Nutrition Assessment </h2>
+                    <h6>1 hour</h6>
+                    <h6>$200</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\yogurt.webp" alt="">
+                    <h2>Improving Lifestyle Workshop</h2>
+                    <h6>1 hour</h6>
+                    <h6>$50</h6>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+          
+          <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <div class="services2__nav">
+            <div class="services2__nav__left" onclick="openCity('London')">
+                <p>Consulting</p>
+                <div></div>
+            </div>
+            <div class="services2__nav__right" onclick="openCity('Paris')">
+                <p>Lessons</p>
+                <div></div>
+            </div>
+        </div>
+            <div class="services">
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\kepimoindas.webp" alt="">
+                    <h2>Healthy Cooking Classes</h2>
+                    <h6>1 hour</h6>
+                    <h6>$90</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\juices.webp" alt="">
+                    <h2>Changing Habits</h2>
+                    <h6>1 hour</h6>
+                    <h6>$90</h6>
+                    <button>Book Now</button>
+                </div>
+                <div class="services__oneblock">
+                    <img class="services__oneblock__img"  src="assets\images\lemons.webp" alt="">
+                    <h2>Grocery Tours</h2>
+                    <h6>1 hour</h6>
+                    <h6>$100</h6>
+                    <button>Book Now</button>
+                </div>
+            </div> 
+          </div>
+    </main>
+    <footer>
+        <div class="footer__copyright">
+        			<div class="div__footer">
+        				<div class="div__footer__adress">
+        					<p>500 Terry Francois Street</p>
+        					<p>San Francisco, CA 94158</p>
+        					<p>info@mysite.com</p>
+        				</div>
+        				<div class="div__footer__line">
+        					
+        				</div>
+        				<div class="div__footer__id">
+        					<h3>Alison Knight</h3>
+        					<h5>Nustritionist</h5>
+        				</div>
+        				<div class="div__footer__line">
+        					
+        				</div>
+        				<div class="div__footer__a">
+        					<h5>Tel: 864592563</h5>
+        					<div>
+        						<a href=""><img src="assets\images\fbw.webp"></a>
+        						<a href=""><img src="assets\images\twitterw.webp"></a>
+        						<a href=""><img src="assets\images\pw.webp"></a>
+        						<a href=""><img src="assets\images\igw.webp"></a>
+        					</div>
+        				</div>
+        			</div>
+        			<p class="copyright">©2023 by Alison Knight. Proudly created with Wix.com</p>
+        		</div>    </footer>
+    <script>
+        function openCity(cityName) {
+          var i;
+          var x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
